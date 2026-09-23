@@ -1,0 +1,55 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.snorlax {
+    grid-column:  1 / 5;
+    grid-row: span 1;
+}
+
+.zubat {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+.diglett {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+}
+
+.snorlax {
+    padding: 16px;
+    border: 2px dashed rgb(107, 150, 170);
+}
+
+.snorlax:hover {
+    background-color: rgb(107, 150, 170);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
+
+.zubat {
+    padding: 16px;
+    border: 2px dashed rgb(197, 92, 141);
+}
+
+.zubat:hover {
+    background-color: rgb(197, 92, 141);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
+
+.diglett {
+    padding: 16px;
+    border: 2px dashed rgb(168, 117, 168);
+}
+
+.diglett:hover {
+    background-color: rgb(168, 117, 168);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}

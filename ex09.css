@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 16px;
+}
+
+.sentret, .ledyba {
+    justify-self: center
+}
+
+.hoothoot, .spinarak {
+    justify-self: flex-end;
+}
+
+.sentret {
+    padding: 16px;
+    border: 2px dashed rgb(131, 96, 63);
+}
+
+.sentret:hover {
+    background-color: rgb(131, 96, 63);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
+
+.hoothoot, .ledyba {
+    padding: 16px;
+    border: 2px dashed rgb(219, 176, 56);
+}
+
+.hoothoot:hover {
+    background-color: rgb(219, 176, 56);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
+
+.ledyba:hover {
+    background-color: rgb(219, 176, 56);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
+
+.spinarak {
+    padding: 16px;
+    border: 2px dashed rgb(168, 218, 166);
+}
+
+.spinarak:hover {
+    background-color: rgb(168, 218, 166);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
